@@ -1,0 +1,39 @@
+Front-End Lab
+│
+├── Project 1: Visual Design
+│   ├── Cat Photo App
+│   ├── Café Menu
+│   ├── Color Maker
+│   ├── Registration Form
+│   └── Exam
+│   📦 Technologies: HTML, CSS, Flexbox, Typography
+│
+├── Project 2: Documentation & Layout
+│   ├── CSS Box Model
+│   ├── Building Photo Gallery
+│   ├── Building Quiz App
+│   ├── Building Nutrition Lab
+│   └── Exam
+│   📦 Technologies: HTML, CSS Grid, Semantic Structure, Responsive Design
+│
+├── Project 3: UI Components
+│   ├── CSS Pseudo Selector
+│   ├── Building Cat Painting
+│   ├── Piano Game
+│   ├── Snake Game
+│   └── Exam
+│   📦 Technologies: HTML, CSS, Pseudo-classes, Positioning, Transforms
+│
+├── Project 4: CSS Animation
+│   ├── CSS Animation
+│   ├── Building Pagination
+│   └── Exam
+│   📦 Technologies: HTML, CSS, Keyframes, Transitions, Animation Timing
+│
+├── Project 5: Forms & Accessibility
+│   ├── CSS Bulding Magazine 
+│   ├── Css City Sky Line 
+│   └── Exam
+│   📦 Technologies: HTML, CSS, Forms, ARIA, Semantic Tags, Responsive Layout
+│
+└── README.md (Lab Overview)

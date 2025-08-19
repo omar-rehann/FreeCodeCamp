@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a32;
+    /* Dark background */
+    color: #f0f0f0;
+    /* Light text color */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1,
+p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#title {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+#description {
+    font-size: 1.1em;
+    max-width: 600px;
+}
+
+#survey-form {
+    background-color: #2a2a40;
+    /* Slightly lighter dark background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 700px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3b3b4f;
+    /* Subtle separator */
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+    /* Remove border for the last fieldset */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.05em;
+    color: #cccccc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #4a4a60;
+    border-radius: 4px;
+    background-color: #1b1b32;
+    /* Darker input background */
+    color: #f0f0f0;
+    font-size: 1em;
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+}
+
+
+/* Style for radio buttons and checkboxes to appear inline with their labels */
+
+.inline {
+    width: unset;
+    /* Override 100% width */
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    /* Align with text */
+    min-height: unset;
+    /* Remove min-height from these specific inputs */
+}
+
+
+/* Specific styling for radio/checkbox labels if needed, to align text */
+
+fieldset legend {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+fieldset label.inline {
+    display: inline-block;
+    /* Keep label and input on the same line */
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    /* Allow vertical resizing */
+    min-height: 80px;
+    /* Minimum height for textarea */
+}
+
+button#submit {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #33cc33;
+    /* Green submit button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#submit:hover {
+    background-color: #28a428;
+    /* Darker green on hover */
+}
